@@ -4,7 +4,7 @@
 
 ## makeCacheMatrix will estaablish a matrix which is passed on to the subsequent function, so it's inverse can be returned. 
 
-makeCacheMatrix <- function(x = matrix()) {           ## Define makeCacheMatrix function.
+makeCacheMatrix <- function(m = matrix()) {           ## Define makeCacheMatrix function.
   i <- NULL                                           ## Make inverse varible null for later.
   set <- function(y) {                                ## Set function using variable y.
     m <<- y                                           ## Define matrix, m with new operator item.
